@@ -23,7 +23,7 @@
 			background: #000;
 			mix-blend-mode: darker;
 		}
-		
+
 		.light h1 {
 			color: #000;
 			background: #fff;
@@ -32,7 +32,7 @@
 		}
 
 		.dark {
-			background-image: url(img/camels.jpg);
+			background-image: url(img/forest.jpg);
 		}
 
 		.light {
