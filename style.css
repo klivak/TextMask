@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+		
+		body {
+			margin: 0;
+		}
+
+		.dark, .light {
+			text-align: center;
+			background-size: cover;
+			background-position: 50%;
+		}
+
+		.dark h1, .light h1 {
+			margin: 0;
+			font-size: 20vw;
+			text-transform: uppercase;
+			font-family: Montserrat, sans-serif;
+			line-height: 1.9;
+		}
+
+		.dark h1 {
+			color: #fff;
+			background: #000;
+			mix-blend-mode: darker;
+		}
+		
+		.light h1 {
+			color: #000;
+			background: #fff;
+			font-size: 19vw;
+			mix-blend-mode: lighten;
+		}
+
+		.dark {
+			background-image: url(img/camels.jpg);
+		}
+
+		.light {
+			background-image: url(img/ocean.jpg);
+		}
+
+		@media all and (min-width: 850px) {
+			.light h1, .dark h1 {
+				font-size: 8rem;
+			}
+
+			.dark {
+				background-position: 50% 85%;
+			}
+		}
